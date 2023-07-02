@@ -1,0 +1,7 @@
+{
+  "name": "san-kp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@san-kp/mobile/home": ["libs/mobile/home/src/index.ts"],
+      "@san-kp/mobile/login": ["libs/mobile/login/src/index.ts"],
+      "@san-kp/mobile/shell": ["libs/mobile/shell/src/index.ts"],
+      "@san-kp/shared/authentication": [
+        "libs/shared/authentication/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

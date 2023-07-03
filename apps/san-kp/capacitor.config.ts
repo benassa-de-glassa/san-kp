@@ -1,10 +1,9 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'io.san-kp.app',
   appName: 'san-kp',
   webDir: '../../dist/apps/san-kp',
-  bundledWebRuntime: false,
   server: {
     androidScheme: 'https',
   },
